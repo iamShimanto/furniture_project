@@ -1,0 +1,432 @@
+/* =======================link start====================== */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+/* ========================link end========================*/
+/* =======================common css start====================== */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+    text-decoration: none !important;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --montserrat:font-family: "Montserrat", sans-serif;
+    --common-color:#054C73;
+    --common-text-color:#333333;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.common-head h2{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: var(--common-text-color);
+    text-align: center;
+}
+.common-head p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--montserrat);
+    color: #666666;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ========================common css end========================*/
+/* =======================menubar start====================== */
+#menubar{
+    padding-top: 43px;
+    padding-bottom: 38px;
+}
+
+.menubar-link{
+    gap: 73.07px;
+}
+#menubar ul li a{    
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--montserrat);
+    color: var(--common-text-color) !important;
+    transition: all linear 0.3s;
+}
+#menubar li a:hover{
+    color: #ED3EF7 !important;
+    transform: scale(1.5);
+}
+
+/* ========================menubar end========================*/
+/* =======================banner start====================== */
+#banner{
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 155px;
+    padding-bottom: 151px;
+}
+#banner .row{
+    
+    display: flex;
+    justify-content: end;
+}
+#banner .single-card{
+    width: 643px;
+    background-color: #DFE9F4;
+    border-radius: 10px;
+    transition: all linear 0.3s;
+}
+#banner .single-card:hover{
+    transform: scale(1.05);
+}
+#banner .single-card .card-text{
+    margin-left: 39px;
+}
+#banner .single-card h3{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--montserrat);
+    color: var(--common-text-color);
+    letter-spacing: 3px;
+    margin-top: 37px;
+    margin-bottom: 20px;
+}
+#banner .single-card h1{
+    width: 421px;
+    font-size: 52px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: var(--common-color);
+    line-height: 65px;   
+}
+#banner .single-card p{
+    width: 546px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--montserrat);
+    color: var(--common-text-color);
+    line-height: 39px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#banner .single-card a{
+    padding: 25px 72px;
+    border-radius: 50px;
+    background-color: var(--common-color);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    margin-bottom: 41px;
+    transition: all linear 0.3s;
+}
+#banner .single-card a:hover{
+    color: var(--common-color);
+    background-color: #48CFCB;
+}
+/* ========================banner end========================*/
+/* ========================support start========================*/
+#support{
+    background-color: #F2F5FF;
+}
+.support-card-single{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27.07px;
+    padding-top: 49.39px;
+    padding-bottom: 50.6px;
+}
+.support-card-single img{
+    width: 83.92px;
+    height: 50px;
+}
+
+.support-card-single h2{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--montserrat);
+    color: var(--common-text-color);
+}
+.support-card-single p{
+    width: 226px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--montserrat);
+    color: var(--common-text-color);
+}
+.support-card-single .time{
+    width: 59.95px;
+}
+.support-card-single .shield{
+    width: 55px;
+}
+/* =======================support end====================== */
+
+/* ========================collection start========================*/
+#collection{
+    margin-top: 60px;
+    margin-bottom: 66px;
+}
+.collection-img{
+    margin-top: 87px;
+}
+.collection-img img{
+    width: 100%;
+    transition: all linear 0.3s;
+}
+.collection-img img:hover{
+    transform: translateY(-75px);
+}
+/* =======================collection end====================== */
+
+/* =======================beautify start====================== */
+#beautify{
+    background-color: #F2F5FF;
+}
+
+.beautify-text{
+    padding-top: 295.35px;
+    padding-bottom: 298.68px;
+}
+.beautify-text h2{
+    width: 394px;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: var(--common-text-color);
+}
+.beautify-text p{
+    width: 489px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--montserrat);
+    color: #666666;
+    line-height: 39px;
+    margin-top: 20.47px;
+    margin-bottom: 30.32px;
+}
+.beautify-text a{
+    padding: 24px 57px;
+    border-radius: 50px;
+    background-color: var(--common-color);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: #fff;
+    transition: all linear 0.3s;
+}
+.beautify-text a:hover{
+    background-color: #48CFCB;
+    color: var(--common-color);
+}
+.beautify-img img{
+    width: 568px;
+    margin-top: 55px;
+    transition: all linear 0.3s;
+}
+.beautify-img img:hover{
+    transform: scale(1.05);
+}
+/* ========================beautify end========================*/
+/* =======================range start====================== */
+#range{
+    margin-top: 55px;
+}
+.range-img{
+    width: 100%;
+    margin-top: 50px;
+}
+.range-img img{
+    transition: all linear 0.3s;
+}
+.range-img img:hover{
+    transform: scale(1.03);
+}
+.range-img p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--montserrat);
+    color: var(--common-text-color);
+    margin-top: 30px;
+    transition: all linear 0.3s;
+    padding: 10px 40px;
+}
+.range-img p:hover{
+    background-color: #333333;
+    color: #fff;
+    border-radius: 40px;
+}
+
+/* ========================range end========================*/
+/* ========================work start========================*/
+#work{
+    margin-top: 121px;
+    margin-bottom: 198px;
+}
+.work-single-card .img{
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+    transition: all linear 0.3s;
+}
+.work-single-card .img:hover{
+    transform: scale(1.05);
+}
+.work-single-card span{
+    width: 60px;
+    height: 60px;
+    background-color: #111111;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 15px solid #FCFCFC;
+    position: absolute;
+    bottom: -33px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.work-card-text{
+    margin-top: 75px;
+}
+.work-card-text h2{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: var(--common-text-color);
+    text-align: center;
+}
+.work-card-text p{
+    width: 381px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--montserrat);
+    color: #666666;
+    line-height: 28px;
+    margin-top: 10px;
+    text-align: center;
+}
+/* ========================work end========================*/
+/* ========================mailing start========================*/
+#mailing{
+    background-color: #F2F5FF;
+    padding-top: 49px;
+    padding-bottom: 61px;
+}
+#mailing .mailing-text{
+    text-align: center;
+}
+.mailing-text h2{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: var(--common-text-color);
+}
+.mailing-text p{
+    width: 514px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--montserrat);
+    color:#666666;
+    line-height: 39px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.mailing-text input{
+    width: 333px;
+    height: 70px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    text-align: center;
+}
+.mailing-text ::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--montserrat);
+    color: #011C42;
+    opacity: 30%;
+    padding-left: 25px;
+}
+.mailing-text button{
+    width: 153px;
+    height: 70px;
+    background-color: #054C73;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: #fff;
+    transition: all linear 0.3s;
+}
+.mailing-text button:hover{
+    background-color: #ED3EF7;
+    color: #000;
+
+}
+/* ========================mailing end========================*/
+/* ========================footer start========================*/
+#footer{
+    background-color: #03344F;
+    padding-top: 49px;
+    padding-bottom: 89px;
+}
+.footer-text h2{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: #fff;
+}
+.footer-text p{
+    width: 400px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--montserrat);
+    color: #fff;
+    line-height: 35px;
+    margin-top: 34px;
+    margin-bottom: 21px;
+}
+.footer-text h3{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: #fff;
+}
+.instra-text p{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: #fff;
+    margin-bottom: 34px;
+}
+.footer-img{
+    display: flex;
+    gap: 21px;
+}
+.footer-img img{
+    transition: all linear 0.3s;
+    width: 175px;
+}
+.footer-img img:hover{
+    transform: scale(1.05);
+}
+/* ========================footer end========================*/

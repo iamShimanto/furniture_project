@@ -1,0 +1,432 @@
+@media (max-width: 575.98px) {
+
+    /* ================menubar===================== */
+    .navbar-toggler{
+        margin-right: 15px;
+    }
+    #menubar ul{
+        width: 350px;
+        height: 100%;
+        background-color: aquamarine;
+        gap: 20px;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+    #menubar ul li a{
+        text-align: center;
+    }
+    .navbar-toggler:focus{
+        border: 4px solid #7695FF;
+        box-shadow: none;
+    }
+    /* ================banner======================== */
+    #banner{
+        width: 100%;
+    }
+    #banner .single-card {
+        width: 225px;
+        margin-right: 39px;
+    }
+    #banner .single-card h1 {
+        width: 138px;
+        font-size: 19px;
+        line-height: 30px;
+    }
+    #banner .single-card p {
+        width: 149px;
+        font-size: 8px;
+        line-height: 24px;
+        margin-top: 14px;
+        margin-bottom: 24px;
+    }
+    #banner .single-card a {
+        padding: 10px 25px;
+        font-size: 9px;
+        margin-bottom: 25px;
+    }
+    /* ====================support==================== */
+    .support-card-single {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16.07px;
+        padding-top: 10.39px;
+        padding-bottom: 8.6px;
+    }
+    .support-card-single img {
+        width: 64.92px;
+    }
+    .support-card-single h2 {
+        font-size: 18px;
+    }
+    .support-card-single p {
+        width: 190px;
+        font-size: 12px;
+    }
+    .common-head h2 {
+        font-size: 23px;
+    }
+    .common-head p {
+        font-size: 14px;
+        margin-top: 16px;
+    }
+    /* ====================collection================= */
+    .collection-img {
+        margin-top: 16px;
+    }
+    .collection-img img {
+        width: 100%;
+    }
+    .collection-img img:hover{
+        transform: translateY(-5px);
+    }
+    /* ================beautify================ */
+    .beautify-text {
+        padding-top: 78.35px;
+        padding-bottom: 20.68px;
+    }
+    #beautify .row{
+        flex-direction: column-reverse;
+    }
+    .beautify-text {
+        padding-left: 16px;
+    }
+    .beautify-text h2 {
+        width: 263px;
+        font-size: 28px;
+    }
+    .beautify-text p {
+        width: 283px;
+        font-size: 13px;
+        margin-bottom: 30.32px;
+    }
+    .beautify-text a {
+        padding: 13px 25px;
+        font-size: 14px;
+    }
+    /* ===================range================== */
+    .range-img {
+        width: 291px;
+        margin-top: 10px;
+    }
+    .range-img p {
+        text-align: center;
+        font-size: 24px;
+        margin-top: 19px;
+    }
+    /* ===================work======================= */
+    #work {
+        margin-top: 50px;
+        margin-bottom: 29px;
+    }
+    
+    .work-single-card .img {
+        width: 296px;
+        margin-top: 18px;
+    }
+    .work-card-text {
+        margin-top: 63px;
+    }
+    .work-card-text h2 {
+        width: 283px;
+    }
+    .work-card-text p {
+        width: 299px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    /* =====================mail================ */
+    .mailing-text h2 {
+        font-size: 26px;
+    }
+    .mailing-text p {
+        width: 267px;
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .mailing-text input {
+        width: 261px;
+        height: 45px;
+    }
+    .mailing-text ::placeholder{
+        font-size: 14px;
+    }
+    .mailing-text button {
+        width: 105px;
+        height: 43px;
+        font-size: 16px;
+    }
+    /* ======================footer=================== */
+    .footer-text h2 {
+        text-align: center;
+    }
+    .footer-text p {
+        width: 290px;
+        font-size: 12px;
+        line-height: 25px;
+        margin-top: 23px;
+        margin-bottom: 13px;
+        text-align: center;
+    }
+    .footer-text h3 {
+        font-size: 23px;
+        margin-bottom: 40px;
+    }
+    .instra-text p {
+        text-align: center;
+    }
+    .footer-img {
+        flex-wrap: wrap;
+    }
+    .footer-img img {
+        width: 137px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* ================menubar===================== */
+    .navbar-toggler{
+        margin-right: 15px;
+    }
+    #menubar ul{
+        width: 455px;
+        height: 100%;
+        background-color: aquamarine;
+        gap: 20px;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+    #menubar ul li a{
+        text-align: center;
+    }
+    .navbar-toggler:focus{
+        border: 4px solid #7695FF;
+        box-shadow: none;
+    }
+    /* ================banner======================== */
+    #banner{
+        width: 100%;
+    }
+    #banner .single-card {
+        width: 309px;
+        margin-right: 39px;
+    }
+    #banner .single-card h1 {
+        width: 186px;
+        font-size: 26px;
+        line-height: 30px;
+    }
+    #banner .single-card p {
+        width: 210px;
+        font-size: 13px;
+        line-height: 24px;
+        margin-top: 14px;
+        margin-bottom: 24px;
+    }
+    #banner .single-card a {
+        padding: 12px 28px;
+        font-size: 12px;
+        margin-bottom: 25px;
+    }
+    /* ====================support==================== */
+    .support-card-single {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16.07px;
+        padding-top: 10.39px;
+        padding-bottom: 8.6px;
+    }
+    .support-card-single img {
+        width: 64.92px;
+    }
+    .support-card-single h2 {
+        font-size: 18px;
+    }
+    .support-card-single p {
+        width: 190px;
+        font-size: 12px;
+    }
+    .common-head h2 {
+        font-size: 26px;
+    }
+    .common-head p {
+        font-size: 16px;
+        margin-top: 16px;
+    }
+    /* ====================collection================= */
+    .collection-img {
+        margin-top: 16px;
+    }
+    .collection-img img {
+        width: 100%;
+    }
+    .collection-img img:hover{
+        transform: translateY(-5px);
+    }
+    /* ================beautify================ */
+    .beautify-text {
+        padding-top: 78.35px;
+        padding-bottom: 20.68px;
+    }
+    #beautify .row{
+        flex-direction: column-reverse;
+    }
+    .beautify-text {
+        padding-left: 16px;
+    }
+    .beautify-text h2 {
+        width: 384px;
+        font-size: 41px;
+    }
+    .beautify-text p {
+        width: 371px;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 30.32px;
+        line-height: 29px;
+    }
+    .beautify-text a {
+        padding: 18px 28px;
+        font-size: 16px;
+        margin-left: 109px;
+    }
+    /* ===================range================== */
+    .range-img {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .range-img p {
+        text-align: center;
+        font-size: 24px;
+        margin-top: 19px;
+    }
+    /* ===================work======================= */
+    #work {
+        margin-top: 50px;
+        margin-bottom: 29px;
+    }
+    
+    .work-single-card .img {
+        width: 100%;
+        margin-top: 18px;
+    }
+    .work-card-text {
+        margin-top: 63px;
+    }
+    .work-card-text p {
+        width: 299px;
+        font-size: 15px;
+        line-height: 25px;
+        margin: 0 auto;
+    }
+    /* =====================mail================ */
+    .mailing-text h2 {
+        font-size: 30px;
+    }
+    .mailing-text p {
+        width: 305px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .mailing-text input {
+        width: 261px;
+        height: 45px;
+    }
+    .mailing-text ::placeholder{
+        font-size: 14px;
+    }
+    .mailing-text button {
+        width: 107px;
+        height: 46px;
+        font-size: 16px;
+    }
+    /* ======================footer=================== */
+    .footer-text h2 {
+        text-align: center;
+        font-size: 27px;
+    }
+    .footer-text p {
+        width: 355px;
+        font-size: 14px;
+        line-height: 25px;
+        margin-top: 23px;
+        margin-bottom: 13px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .footer-text h3 {
+        font-size: 23px;
+        margin-bottom: 40px;
+        margin-left: 62px;
+        margin-top: 20px;
+    }
+    .instra-text p {
+        text-align: center;
+    }
+    .footer-img {
+        flex-wrap: wrap;
+    }
+    .footer-img img {
+        width: 245px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* ================menubar================= */
+    .navbar-toggler{
+        margin-right: 15px;
+    }
+    #menubar ul{
+        width: 600px;
+        height: 100%;
+        background-color: aquamarine;
+        gap: 20px;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+    #menubar ul li a{
+        text-align: center;
+    }
+    .navbar-toggler:focus{
+        border: 4px solid #7695FF;
+        box-shadow: none;
+    }
+    /* ================beautify================= */
+    .beautify-text{
+        margin-left: 120px;
+    }
+    /* ==================footer==================== */
+    .instra-text p {
+        text-align: center;
+    }
+    .footer-img img {
+        width: 100%;
+    }
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    .footer-img {
+        flex-wrap: wrap;
+    }
+    .work-card-text p {
+        width: 295px;
+        font-size: 15px;
+    }
+    .footer-img img {
+        transition: all linear 0.3s;
+        width: 137px;
+    }
+    .footer-text p {
+        width: 276px;
+        font-size: 13px;
+        line-height: 30px;
+        margin-top: 19px;
+        margin-bottom: 18px;
+    }
+}
+
+@media (min-width:1200px) and (max-width:1399.98px){
+    .footer-text p {
+        width: 339px;
+    }
+}
